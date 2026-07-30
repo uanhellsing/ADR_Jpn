@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>ADR — Коллекция</title>
+<link href="css/style.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="site-header"><div class="header-inner"><nav class="nav"><a href="home.html">Home</a><a href="blog.html">Blog</a><a href="equipment.html">Stuff</a><a class="active" href="collection.html">Collection</a><a href="about.html">About</a></nav></div></header>
+<main>
+<section class="page-title reveal">
+<h1>Коллекция</h1>
+<p>Виниловые пластинки, компакт-диски и цифровые издания.</p>
+</section>
+<div aria-label="Фильтр коллекции" class="filters">
+<button class="filter-btn active" data-filter="all">ВСЁ</button>
+<button class="filter-btn" data-filter="vinyl">ВИНИЛ</button>
+<button class="filter-btn" data-filter="cd">CD</button>
+<button class="filter-btn" data-filter="digital">ЦИФРОВЫЕ</button>
+</div>
+<section class="grid collection-grid">
+<article class="card collection-card reveal" data-category="vinyl" id="for-you">
+<img alt="Tatsuro Yamashita — For You" decoding="async" loading="lazy" src="images/collection/tatsuro-yamashita-for-you-vinyl.jpg"/>
+<div class="card-body"><div class="card-kicker">Vinyl · 1982</div><h2>Tatsuro Yamashita</h2><p>For You</p></div>
+</article>
+<article class="card collection-card reveal" data-category="vinyl" id="ride-on-time">
+<img alt="Tatsuro Yamashita — Ride on Time" decoding="async" loading="lazy" src="images/collection/tatsuro-yamashita-ride-on-time-vinyl.jpg"/>
+<div class="card-body"><div class="card-kicker">Vinyl · 1980</div><h2>Tatsuro Yamashita</h2><p>Ride on Time</p></div>
+</article>
+<article class="card collection-card reveal" data-category="vinyl" id="starboy">
+<img alt="The Weeknd — Starboy" decoding="async" loading="lazy" src="images/collection/the-weeknd-starboy-vinyl.jpg"/>
+<div class="card-body"><div class="card-kicker">Vinyl · 2016</div><h2>The Weeknd</h2><p>Starboy</p></div>
+</article>
+<article class="card collection-card reveal" data-category="vinyl" id="shotaijo-no-nai-show">
+<img alt="Yosui Inoue — 招待状のないショー" decoding="async" loading="lazy" src="images/collection/yosui-inoue-shotaijo-no-nai-show-vinyl.jpg"/>
+<div class="card-body"><div class="card-kicker">Vinyl · 1976</div><h2>Yosui Inoue</h2><p>招待状のないショー</p></div>
+</article><article class="card collection-card reveal" data-category="vinyl" id="miki-matsubara-stay-with-me"><img alt="Miki Matsubara — Stay With Me" decoding="async" loading="lazy" src="images/collection/miki-matsubara-stay-with-me.webp"/><div class="card-body"><div class="card-kicker">7" Single · 1979</div><h2>Miki Matsubara</h2><p>Stay With Me</p></div></article><article class="card collection-card reveal" data-category="vinyl" id="mariya-takeuchi-plastic-love"><img alt="Mariya Takeuchi — Plastic Love" decoding="async" loading="lazy" src="images/collection/mariya-takeuchi-plastic-love.webp"/><div class="card-body"><div class="card-kicker">12" Single · 1984</div><h2>Mariya Takeuchi</h2><p>Plastic Love</p></div></article><article class="card collection-card reveal" data-category="vinyl" id="yasuha-fly-day-chinatown"><img alt="Yasuha — Fly-Day Chinatown" decoding="async" loading="lazy" src="images/collection/yasuha-fly-day-chinatown.webp"/><div class="card-body"><div class="card-kicker">7" Single · 1981</div><h2>Yasuha</h2><p>Fly-Day Chinatown</p></div></article>
+<article class="card collection-card reveal" data-category="cd" id="death-stranding">
+<img alt="Various Artists — Death Stranding: Songs from the Video Game" decoding="async" loading="lazy" src="images/collection/death-stranding-songs-cd.jpg"/>
+<div class="card-body"><div class="card-kicker">2CD · 2020</div><h2>Various Artists</h2><p>Death Stranding: Songs from the Video Game</p></div>
+</article>
+<article class="card collection-card reveal" data-category="digital" id="opr">
+<img alt="Gesaffelstein — Opr" decoding="async" loading="lazy" src="images/collection/gesaffelstein-opr-digital.jpg"/>
+<div class="card-body"><div class="card-kicker">Digital · 2011</div><h2>Gesaffelstein</h2><p>Opr</p></div>
+</article>
+<article class="card collection-card reveal" data-category="digital" id="rarities">
+<img alt="Lorn — Rarities" decoding="async" loading="lazy" src="images/collection/lorn-rarities-digital.jpg"/>
+<div class="card-body"><div class="card-kicker">Digital · 2019</div><h2>Lorn</h2><p>Rarities</p></div>
+</article>
+<article class="card collection-card reveal" data-category="digital" id="vessel">
+<img alt="Lorn — Vessel" decoding="async" loading="lazy" src="images/collection/lorn-vessel-digital.jpg"/>
+<div class="card-body"><div class="card-kicker">Digital · 2015</div><h2>Lorn</h2><p>Vessel</p></div>
+</article>
+<article class="card collection-card reveal" data-category="vinyl" id="elmo-hope-final-sessions-vol-1"><img alt="Elmo Hope Trio — The Final Sessions Vol. 1" decoding="async" height="600" loading="lazy" src="images/collection/elmo-hope-final-sessions-vol-1.webp" width="600"/><div class="card-body"><div class="card-kicker">Vinyl · 1991</div><h2>Elmo Hope Trio</h2><p>The Final Sessions Vol. 1</p></div></article><article class="card collection-card reveal" data-category="vinyl" id="william-ackerman-passage"><img alt="William Ackerman — Passage" decoding="async" height="600" loading="lazy" src="images/collection/william-ackerman-passage.webp" width="600"/><div class="card-body"><div class="card-kicker">Vinyl · 1981</div><h2>William Ackerman</h2><p>Passage</p></div></article><article class="card collection-card reveal" data-category="vinyl" id="nsp-seishun-no-kakeratachi"><img alt="N.S.P — BEST ALBUM 青春のかけら達" decoding="async" height="600" loading="lazy" src="images/collection/nsp-seishun-no-kakeratachi.webp" width="600"/><div class="card-body"><div class="card-kicker">2LP · 1978</div><h2>N.S.P</h2><p>BEST ALBUM 青春のかけら達</p></div></article><article class="card collection-card reveal" data-category="vinyl" id="takao-horiuchi-konnichiwa"><img alt="堀内孝雄 / Takao Horiuchi — こんにちは" decoding="async" loading="lazy" src="images/collection/takao-horiuchi-konnichiwa.webp"/><div class="card-body"><div class="card-kicker">Vinyl · 1978</div><h2>堀内孝雄 / Takao Horiuchi</h2><p>こんにちは</p></div></article><article class="card collection-card reveal" data-category="vinyl" id="shigeru-suzuki-serenade"><img alt="鈴木茂 / Shigeru Suzuki — Serenade" decoding="async" loading="lazy" src="images/collection/shigeru-suzuki-serenade.webp"/><div class="card-body"><div class="card-kicker">Vinyl · 1983</div><h2>鈴木茂 / Shigeru Suzuki</h2><p>Serenade</p></div></article><article class="card collection-card reveal" data-category="vinyl" id="chanels-live-whisky-a-go-go"><img alt="The Chanels — Live at Whisky A Go Go" decoding="async" height="600" loading="lazy" src="images/collection/chanels-live-whisky-a-go-go.webp" width="600"/><div class="card-body"><div class="card-kicker">Vinyl · 1981</div><h2>The Chanels</h2><p>Live at Whisky A Go Go</p></div></article><article class="card collection-card reveal" data-category="vinyl" id="chanels-mr-black"><img alt="The Chanels — Mr. Black Chanels" decoding="async" height="600" loading="lazy" src="images/collection/chanels-mr-black.webp" width="600"/><div class="card-body"><div class="card-kicker">Vinyl · 1980</div><h2>The Chanels</h2><p>Mr. Black Chanels</p></div></article><article class="card collection-card reveal" data-category="vinyl" id="kazumi-band-talk-you-all-tight"><img alt="Kazumi Band — Talk You All Tight" decoding="async" height="600" loading="lazy" src="images/collection/kazumi-band-talk-you-all-tight.webp" width="600"/><div class="card-body"><div class="card-kicker">Vinyl · 1981</div><h2>Kazumi Band</h2><p>Talk You All Tight</p></div></article><article class="card collection-card reveal" data-category="digital" id="adhd-4"><img alt="ADHD — ADHD 4" decoding="async" height="600" loading="lazy" src="images/collection/adhd-4.webp" width="600"/><div class="card-body"><div class="card-kicker">Digital · 2013</div><h2>ADHD</h2><p>ADHD 4</p></div></article><article class="card collection-card reveal" data-category="digital" id="adhd-7"><img alt="ADHD — ADHD 7" decoding="async" height="600" loading="lazy" src="images/collection/adhd-7.webp" width="600"/><div class="card-body"><div class="card-kicker">Digital · 2019</div><h2>ADHD</h2><p>ADHD 7</p></div></article><article class="card collection-card reveal" data-category="digital" id="aurora-a-different-kind-of-human-step-2"><img alt="AURORA — A Different Kind of Human (Step 2)" decoding="async" height="600" loading="lazy" src="images/collection/aurora-a-different-kind-of-human-step-2.webp" width="600"/><div class="card-body"><div class="card-kicker">Digital · 2019</div><h2>AURORA</h2><p>A Different Kind of Human (Step 2)</p></div></article><article class="card collection-card reveal" data-category="digital" id="aurora-all-my-demons-greeting-me-as-a-friend"><img alt="AURORA — All My Demons Greeting Me as a Friend" decoding="async" loading="lazy" src="images/collection/aurora-all-my-demons-greeting-me-as-a-friend.webp"/><div class="card-body"><div class="card-kicker">Digital · 2016</div><h2>AURORA</h2><p>All My Demons Greeting Me as a Friend</p></div></article><article class="card collection-card reveal" data-category="vinyl" id="aurora-the-gods-we-can-touch"><img alt="AURORA — The Gods We Can Touch" decoding="async" height="600" loading="lazy" src="images/collection/aurora-the-gods-we-can-touch.webp" width="600"/><div class="card-body"><div class="card-kicker">Vinyl · 2022</div><h2>AURORA</h2><p>The Gods We Can Touch</p></div></article></section>
+</main>
+<footer class="site-footer"><a aria-label="ADR Telegram" class="footer-telegram" href="https://t.me/ADR_UAN" rel="noopener noreferrer" target="_blank"><img alt="ADR Telegram" src="images/common/telegram-adr.png"/></a><a aria-label="Открыть скрытую страницу HIWY" class="footer-secret" href="hiwy/index.html"><span aria-hidden="true" class="footer-eye"><img alt="" src="images/common/adr-eye-logo.png"/><span class="footer-pupil"></span></span></a><div aria-label="Copyright ADR" class="footer-rights"><span class="footer-rights-brand">ADR</span><span class="footer-rights-years">©2018–2028</span><span class="footer-rights-copy">All Rights Reserved.</span></div></footer><script src="js/site.js"></script>
+</body>
+</html>

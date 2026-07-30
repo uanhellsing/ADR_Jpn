@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 112" role="img" aria-labelledby="title desc">
+  <title id="title">ADR</title>
+  <desc id="desc">Geometric red ADR wordmark on a transparent background</desc>
+  <g fill="none" stroke="#f00022" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- A -->
+    <path d="M18 94 L54 18 L90 94"/>
+    <path d="M34 66 H74"/>
+    <!-- D -->
+    <path d="M116 18 V94 H148 C185 94 185 18 148 18 Z"/>
+    <!-- R -->
+    <path d="M210 94 V18 H247 C274 18 274 58 247 58 H210"/>
+    <path d="M242 58 L284 94"/>
+  </g>
+</svg>
