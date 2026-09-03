@@ -148,3 +148,6 @@ body.leaving .index-art { animation: waterDistort 1.25s ease forwards; }
   .index-art, .index-tracking-eye, .welcome-message, .fade-to-black { transition: none; }
   .ripple { animation-duration: .01ms; }
 }
+
+/* V26 language flags */
+.welcome-languages{position:fixed;right:clamp(16px,3vw,38px);top:clamp(16px,3vw,32px);z-index:30;display:flex;gap:9px}.welcome-language-flag{width:32px;height:32px;border-radius:50%;overflow:hidden;border:1px solid rgba(255,255,255,.28);opacity:.72;transition:opacity .2s ease,transform .2s ease,box-shadow .2s ease}.welcome-language-flag img{width:100%;height:100%;object-fit:cover}.welcome-language-flag:hover{opacity:1;transform:translateY(-2px);box-shadow:0 0 0 2px rgba(255,255,255,.16)}

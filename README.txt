@@ -134,3 +134,13 @@ V25 — GITHUB PAGES / YOUTUBE EMBED FIX
 - YouTube embeds now use www.youtube.com/embed with an explicit strict-origin-when-cross-origin referrer policy.
 - When pages are opened through file://, the Live page shows a local-preview notice instead of a broken Error 153 player.
 - Added GITHUB_PAGES_README.txt with browser-upload instructions.
+
+
+V26 — MULTILINGUAL MERGE
+- Big ADR/HIWY/eye version kept as the base.
+- Added Russian, Japanese and English ADR pages with round flag language switching.
+- Updated Blog to the current purchase timeline from the compact branch.
+- Updated Collection to 33 items and grouped it into LP/Vinyl, CD and Digital.
+- Added the latest supplied collection artwork.
+- Added Japanese/English versions of all 12 equipment detail pages.
+- HIWY remains the original hidden standalone section.
