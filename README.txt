@@ -144,3 +144,8 @@ V26 — MULTILINGUAL MERGE
 - Added the latest supplied collection artwork.
 - Added Japanese/English versions of all 12 equipment detail pages.
 - HIWY remains the original hidden standalone section.
+
+
+2026-09-08 — ADR UAN
+- Added two saber restoration articles: Ultimate Works RVS / Asteria V2.5 and Obi-Wan Kenobi Episode I / Xenopixel.
+- Added supplied photo galleries and YouTube Shorts embeds with strict-origin-when-cross-origin referrer policy.

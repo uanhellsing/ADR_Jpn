@@ -1019,3 +1019,39 @@ main { width: min(calc(100% - 32px), var(--max)); margin: 0 auto; }
 .collection-group[hidden] { display:none !important; }
 @media (max-width:860px) { .header-actions { width:100%; margin-left:0; justify-content:space-between; align-items:flex-start; gap:12px; } .language-switcher { padding-top:1px; } }
 @media (max-width:580px) { .header-actions { flex-direction:column; } .timeline-card { grid-template-columns:1fr; gap:10px; } .language-flag { width:26px; height:26px; } }
+
+
+/* V27: long-form saber articles */
+.timeline-card.article-entry {
+  grid-template-columns:minmax(145px,190px) minmax(0,1fr);
+}
+.timeline-card.article-entry .timeline-copy {
+  display:grid; grid-template-columns:156px minmax(0,1fr); gap:20px; align-items:center;
+}
+.timeline-card.article-entry .timeline-thumb {
+  width:156px; height:104px; object-fit:cover; border:1px solid var(--line); background:#111;
+}
+.timeline-card.article-entry .read-more {
+  display:inline-block; margin-top:10px; color:#e7e7e7; border-bottom:1px solid #777; font-size:.82rem; letter-spacing:.06em;
+}
+.article-gallery {
+  display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; margin:28px 0 34px;
+}
+.article-gallery.three { grid-template-columns:repeat(3,minmax(0,1fr)); }
+.article-gallery img {
+  width:100%; aspect-ratio:4/3; object-fit:cover; border:1px solid var(--line); background:#111;
+}
+.video-frame {
+  position:relative; width:100%; max-width:520px; margin:26px auto 12px; aspect-ratio:9/16; overflow:hidden; border:1px solid var(--line); background:#000;
+}
+.video-frame iframe { position:absolute; inset:0; width:100%; height:100%; border:0; }
+.video-fallback { text-align:center; margin:0 0 30px; color:var(--muted); font-size:.84rem; }
+.video-fallback a { border-bottom:1px solid #777; }
+.article-spec {
+  margin:24px 0; padding:16px 18px; border-left:3px solid #6c1b7a; background:rgba(15,15,15,.66); color:#cfcfcf;
+}
+@media (max-width:760px){
+ .timeline-card.article-entry .timeline-copy{grid-template-columns:1fr;}
+ .timeline-card.article-entry .timeline-thumb{width:100%;height:auto;aspect-ratio:16/9;}
+ .article-gallery,.article-gallery.three{grid-template-columns:1fr;}
+}
