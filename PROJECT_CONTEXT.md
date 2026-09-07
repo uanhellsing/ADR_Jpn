@@ -110,3 +110,9 @@ Confirmed from user data/photos:
 Photos: `pc-build-2022-parts.jpg`, `pc-build-2022-internal.jpg`, `pc-build-2022-front.jpg`, `pc-build-2022-side.jpg`.
 Full branch pages: `blog/pc-build-2022.html`, `blog/pc-build-2022-ja.html`, `blog/pc-build-2022-en.html`. Lite: `blog/pc-build-2022.html` in Japanese.
 Blog chronology: insert on **22 October 2022**, after AURORA (Nov 2022) and before 2021 entries.
+
+
+## V31 correction
+- Article directories are explicitly visible on blog landing pages.
+- Full ADR home pages link directly to all four long-form articles in RU/JA/EN.
+- Article gallery photography is never cropped: original aspect ratios are preserved with height:auto/object-fit:contain.
