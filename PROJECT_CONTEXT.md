@@ -33,7 +33,7 @@ The purchase diary is ordered newest to oldest. Major known purchase dates inclu
 ## Saber articles added 2026-09-08
 
 ### Asteria / Ultimate Works RVS
-Article date: **2026-06-21** (date of the Asteria configuration discussion thread).
+Acquisition date: **late April 2026** (user correction; do not use the later configuration-thread date as the purchase date).
 - Bought in BOOKOFF junk section for **¥13,000** as non-working.
 - User has soldering tools/skills and repaired/configured it.
 - Hilt: **Ultimate Works RVS (Darth Revan)**.
@@ -42,7 +42,7 @@ Article date: **2026-06-21** (date of the Asteria configuration discussion threa
 - Video: https://youtube.com/shorts/kvVOWWPNig4
 
 ### Xenopixel / Obi-Wan Kenobi Episode I
-Article date: **2026-08-25** (Mercari ¥18,000 discussion).
+Acquisition date: **mid-June 2026** (user correction; the later Mercari discussion date is not the purchase date).
 - Bought on Mercari for **¥18,000** as non-working.
 - Newer and less common hilt; fault was software/configuration related.
 - Hilt: **Obi-Wan Kenobi Episode I / The Phantom Menace**.
@@ -64,3 +64,49 @@ ADR UAN collection currently has 33 entries grouped/filterable by LP/Vinyl, CD a
 - Album cards do not open separate album detail pages.
 - Use English product/brand/model names in Latin script.
 - Keep GitHub Pages compatibility; `.nojekyll`, `index.html` at root, relative local paths.
+
+
+## Pending V28 article refinements (2026-09-08)
+- Replaced Asteria and Xenopixel saber images with the user's newly cropped versions.
+- Reduced oversized article titles.
+- Enlarged vertical YouTube Shorts embeds.
+- ADR UAN: RU / 日本語 / EN article pages are present and article-language flags are shown directly below the title.
+- The next article has now been added; package the branches only when the user asks for the archives.
+
+## PC upgrade article — 2026-08-18
+
+Title:
+- RU: **Обновка для ПК**
+- JA: **PCのアップグレード**
+- EN: **PC Upgrade**
+
+Story:
+- Previous case: **Dr Zaber Sentry 2.0** — compact and ventilated, but with limited thermal headroom in the Japanese summer.
+- Bought a **Thermaltake TH360 V2 ARGB Sync** 360 mm AIO at auction for **¥7,000**.
+- The 360 mm radiator is physically too large for the Sentry 2.0, which triggered the case replacement.
+- New case: **Thermaltake The Tower 250 Matcha Green Edition**.
+- Article uses six user photos: old Sentry build, Tower 250 box, empty-case comparison, panel view, hardware transfer, finished build.
+- Full ADR UAN article files: `blog/pc-upgrade.html`, `blog/pc-upgrade-ja.html`, `blog/pc-upgrade-en.html`.
+- ADR Lite article file: `blog/pc-upgrade.html`.
+- Blog chronology: place this article on **2026-08-18**. Xenopixel is now mid-June 2026, so the PC article is newer than the saber article.
+
+
+## DATE CORRECTION
+- Ultimate Works RVS / Asteria: acquired **late April 2026**.
+- Obi-Wan Episode I / Xenopixel: acquired **mid-June 2026**.
+- These purchase dates override earlier dates inferred from later discussion threads.
+
+
+## PC Build article — 2022-10-22
+
+Title: **PC Build**. Initial compact SFF build in **Dr Zaber Sentry 2.0**.
+Confirmed from user data/photos:
+- CPU: **Intel Core i7-10700K** (8 cores / 16 threads).
+- Motherboard: **ASUS ROG Strix Z490-I Gaming** (Mini-ITX / Z490).
+- GPU: **GIGABYTE GeForce RTX 3070 EAGLE OC 8G** (8 GB GDDR6).
+- RAM: **32 GB HyperX FURY DDR4**; exact memory clock is not claimed.
+- Storage visible in component photo: **HP EX950 M.2 2 TB** + **Samsung 970 PRO NVMe M.2**; 970 PRO capacity is not claimed.
+- Case: **Dr Zaber Sentry 2.0**.
+Photos: `pc-build-2022-parts.jpg`, `pc-build-2022-internal.jpg`, `pc-build-2022-front.jpg`, `pc-build-2022-side.jpg`.
+Full branch pages: `blog/pc-build-2022.html`, `blog/pc-build-2022-ja.html`, `blog/pc-build-2022-en.html`. Lite: `blog/pc-build-2022.html` in Japanese.
+Blog chronology: insert on **22 October 2022**, after AURORA (Nov 2022) and before 2021 entries.
