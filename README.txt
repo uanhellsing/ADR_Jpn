@@ -149,3 +149,5 @@ V26 — MULTILINGUAL MERGE
 2026-09-08 — ADR UAN
 - Added two saber restoration articles: Ultimate Works RVS / Asteria V2.5 and Obi-Wan Kenobi Episode I / Xenopixel.
 - Added supplied photo galleries and YouTube Shorts embeds with strict-origin-when-cross-origin referrer policy.
+
+V32: added 2014 First PC and 2015 Diesel DZ1295 articles; all article photography remains uncropped.

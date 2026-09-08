@@ -116,3 +116,13 @@ Blog chronology: insert on **22 October 2022**, after AURORA (Nov 2022) and befo
 - Article directories are explicitly visible on blog landing pages.
 - Full ADR home pages link directly to all four long-form articles in RU/JA/EN.
 - Article gallery photography is never cropped: original aspect ratios are preserved with height:auto/object-fit:contain.
+
+
+## V32 — EARLY PC + DIESEL WATCH
+- Added First PC article dated 7 March 2014, with five supplied photos.
+- Confirmed base hardware: Intel Core i7-3770K, ASUS P8Z77-I DELUXE/Z77, 16 GB G.Skill DDR3, Corsair H100, Intel 80 GB SSD, Kingston HyperX 3K 240 GB, WD Blue 500 GB.
+- MSI GeForce GTX 980 GAMING 4G is documented as a later upgrade because GTX 980 postdates the March 2014 original build.
+- RAM exact clock intentionally left unconfirmed; P8Z77-I DELUXE officially supports up to DDR3-2400 (OC).
+- Corrected user recollection: photographed red HyperX SSD is HyperX 3K 240 GB, not HyperX Savage.
+- Added Diesel DZ1295 article dated 27 May 2015 with supplied photo.
+- ADR UAN articles exist in RU / JA / EN; ADR Lite retains its Japanese-only architecture.

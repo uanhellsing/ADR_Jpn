@@ -1149,3 +1149,12 @@ main { width: min(calc(100% - 32px), var(--max)); margin: 0 auto; }
   .article-index-card { grid-template-columns: 1fr; }
   .article-index-card img { max-height: none; }
 }
+
+
+/* V32: first-PC and watch articles */
+.article-gallery.first-pc-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; }
+.article-gallery.first-pc-gallery .hero-photo { grid-column: 1 / -1; }
+.article-gallery.single-gallery { grid-template-columns: 1fr; max-width: 760px; margin-left: auto; margin-right: auto; }
+.article-gallery.first-pc-gallery img,
+.article-gallery.single-gallery img { width: 100%; height: auto; aspect-ratio: auto; object-fit: contain; object-position: center; background: #070707; }
+@media (max-width: 680px) { .article-gallery.first-pc-gallery { grid-template-columns: 1fr; } }
