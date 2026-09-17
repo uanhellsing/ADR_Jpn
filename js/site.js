@@ -37,6 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
   };
   const tx = (ru,ja,en) => ({ru,ja,en}[lang]);
   const items = [
+    ['collection#john-coltrane-johnny-hartman','https://coverartarchive.org/release/42baa281-9c36-4f65-abb6-7ff313204f77/front-500','vinyl','John Coltrane & Johnny Hartman — John Coltrane and Johnny Hartman',tx('Вокальный джаз на Impulse!','Impulse!のヴォーカル・ジャズ。','Vocal jazz on Impulse!.')],
     ['equipment/wharfedale-diamond-10-1','images/equipment/wharfedale-diamond-10-1-1.jpg','speakers','Wharfedale Diamond 10.1',tx('Мягкая полочная акустика.','柔らかな音のブックシェルフスピーカー。','Smooth bookshelf speakers.')],
     ['equipment/teac-a-h01','images/equipment/teac-a-h01-1.jpg','amplifier','TEAC A-H01',tx('Компактный усилитель с USB-ЦАП.','USB DAC内蔵のコンパクトアンプ。','Compact amplifier with USB DAC.')],
     ['equipment/akg-q701','images/equipment/akg-q701-1.jpg','headphones','AKG Q701',tx('Открытые наушники с широкой сценой.','広い音場のオープン型ヘッドホン。','Open headphones with a wide stage.')],

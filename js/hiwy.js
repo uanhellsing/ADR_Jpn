@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
-  // YouTube requires an HTTP Referer. A page opened directly through file://
-  // cannot provide one, so show a useful local-preview fallback instead of Error 153.
+  // YouTube требует HTTP Referer. Страница, открытая напрямую через file://
+  // не может передать его, поэтому вместо ошибки 153 показываем полезную заглушку для локального просмотра.
   if (window.location.protocol === 'file:') {
     document.querySelectorAll('.live-video-item').forEach(item => {
       const frame = item.querySelector('.archive-video iframe');

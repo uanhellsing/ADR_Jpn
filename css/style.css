@@ -148,14 +148,14 @@ main { width: min(calc(100% - 32px), var(--max)); margin: 0 auto; }
 }
 
 
-/* V7: ADR textured background and secret eye cleanup */
+/* V7: текстурный фон ADR и доработка скрытого глаза */
 .footer-secret { margin-bottom: 18px; }
 .footer-secret-label { display: none !important; }
 .site-header { background: rgba(5,5,5,.82); }
 .card, .person, .notice { background: rgba(16,16,16,.88); }
 
 
-/* V8: real equipment photography and in-card galleries */
+/* V8: реальные фотографии аппаратуры и галереи в карточках */
 .equipment-card img {
   object-fit: contain;
   background: #ececec;
@@ -198,13 +198,13 @@ main { width: min(calc(100% - 32px), var(--max)); margin: 0 auto; }
   .device-gallery a { min-height: 180px; }
 }
 
-/* V8: four selected devices fit on one row on wide screens. */
+/* V8: четыре выбранных устройства помещаются в один ряд на широких экранах. */
 .featured-equipment { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 @media (max-width: 980px) { .featured-equipment { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 580px) { .featured-equipment { grid-template-columns: 1fr; } }
 
 
-/* Collection catalogue: static, non-clickable album cards */
+/* Каталог коллекции: статичные некликабельные карточки альбомов */
 .collection-card {
   cursor: default;
   scroll-margin-top: 110px;
@@ -227,7 +227,7 @@ main { width: min(calc(100% - 32px), var(--max)); margin: 0 auto; }
 }
 
 
-/* V9: ADR gradient header and image branding */
+/* V9: градиентная шапка ADR и графический брендинг */
 .site-header {
   background: linear-gradient(90deg, #9003fc 0%, #430073 34%, #12001e 58%, #000 100%);
   border-bottom-color: rgba(255,255,255,.16);
@@ -278,7 +278,7 @@ main { width: min(calc(100% - 32px), var(--max)); margin: 0 auto; }
   .hero-brand-image { min-height: 230px; }
 }
 
-/* V10: full supplied logo, vertical header gradient, open home layout, stacked footer. */
+/* V10: полный логотип, вертикальный градиент шапки, открытая главная и составной подвал. */
 .site-header {
   background: linear-gradient(180deg, #9003fc 0%, #560098 42%, #1b002f 72%, #000 100%);
   border-bottom-color: rgba(255,255,255,.14);
@@ -407,7 +407,7 @@ main { width: min(calc(100% - 32px), var(--max)); margin: 0 auto; }
   }
 }
 
-/* Compensate only for the transparent-looking black margin inside the complete source image. */
+/* Компенсируем только визуально прозрачное чёрное поле внутри исходного изображения. */
 .home-intro-logo { margin: 0 auto -112px; }
 .home-intro p { margin-top: 0; position: relative; z-index: 1; }
 @media (max-width: 620px) {
@@ -415,7 +415,7 @@ main { width: min(calc(100% - 32px), var(--max)); margin: 0 auto; }
 }
 
 
-/* V11: final ADR header, supplied logo, footer alignment and eye position. */
+/* V11: финальная шапка ADR, исходный логотип, выравнивание подвала и положение глаза. */
 .site-header {
   background: linear-gradient(180deg, #9003fc 0%, #48007a 44%, #12001e 76%, #000 100%);
   border-bottom: 0;
@@ -496,7 +496,7 @@ main { width: min(calc(100% - 32px), var(--max)); margin: 0 auto; }
   .home-intro-logo { width: min(92vw, 560px); }
 }
 
-/* V12: geometric ADR wordmark, paper-colour header and footer refinements. */
+/* V12: геометрический логотип ADR, бумажный оттенок шапки и доработка подвала. */
 .site-header {
   background: linear-gradient(180deg, #9003fc 0%, #7040a0 40%, #4b4652 72%, #393d40 100%);
   border-bottom: 0;
@@ -567,7 +567,7 @@ main { width: min(calc(100% - 32px), var(--max)); margin: 0 auto; }
 }
 
 
-/* V13: restored supplied ADR CLAN image and classic navigation styling. */
+/* V13: возвращено изображение ADR CLAN и классический стиль навигации. */
 .site-header {
   background: linear-gradient(90deg, #5e0d73 0%, #2b0635 48%, #000 100%);
   border-bottom: 0;
@@ -627,7 +627,7 @@ main { width: min(calc(100% - 32px), var(--max)); margin: 0 auto; }
 }
 
 
-/* V14: illustrated header, darker violet overlay and transparent Telegram mark. */
+/* V14: иллюстрированная шапка, более тёмный фиолетовый оверлей и прозрачный знак Telegram. */
 .site-header {
   background:
     linear-gradient(90deg, rgba(30,4,37,.88) 0%, rgba(23,3,29,.86) 48%, rgba(0,0,0,.94) 100%),
@@ -678,7 +678,7 @@ main { width: min(calc(100% - 32px), var(--max)); margin: 0 auto; }
   .footer-telegram { width: 104px; }
 }
 
-/* V15: footer Telegram cleanup and vertical alignment. */
+/* V15: очистка изображения Telegram в подвале и вертикальное выравнивание. */
 .footer-telegram {
   top: 50%;
   bottom: auto;
@@ -705,7 +705,7 @@ main { width: min(calc(100% - 32px), var(--max)); margin: 0 auto; }
   .footer-telegram:hover { transform: translateY(-2px); }
 }
 
-/* Fine alignment: Telegram mark shares the visual centre line with the footer eye. */
+/* Точная подгонка: знак Telegram находится на одной визуальной линии с глазом в подвале. */
 .footer-telegram { transform: translateY(-70%); }
 .footer-telegram:hover { transform: translateY(-73%) scale(1.02); }
 @media (max-width: 620px) {
@@ -713,13 +713,13 @@ main { width: min(calc(100% - 32px), var(--max)); margin: 0 auto; }
   .footer-telegram:hover { transform: translateY(-2px); }
 }
 
-/* V16: keep all collection cards aligned after adding bilingual catalogue entries. */
+/* V16: выравнивание всех карточек коллекции после добавления двуязычных записей. */
 .collection-card .card-body { min-height: 154px; }
 .collection-card h2 { font-size: 1.18rem; }
 .collection-card img { display: block; }
 
 
-/* V17: compact footer, adjusted footer artwork and unified catalogue cards. */
+/* V17: компактный подвал, скорректированная графика и унифицированные карточки каталога. */
 .site-footer {
   min-height: 210px;
   margin-top: 72px;
@@ -788,10 +788,10 @@ main { width: min(calc(100% - 32px), var(--max)); margin: 0 auto; }
 }
 
 
-/* V19: return the red tracking pupil to the previous centred footer position. */
+/* V19: возвращаем красный следящий зрачок в прежнее центральное положение подвала. */
 .footer-pupil { left: 49%; }
 
-/* V24: compact responsive footer alignment for narrow browser windows. */
+/* V24: компактное адаптивное выравнивание подвала для узких окон браузера. */
 @media (max-width: 900px) {
   .site-footer {
     min-height: 154px;
@@ -898,7 +898,7 @@ main { width: min(calc(100% - 32px), var(--max)); margin: 0 auto; }
   }
 }
 
-/* Compact responsive footer: Telegram — eye — copyright in one line. */
+/* Компактный адаптивный подвал: Telegram — глаз — копирайт в одну строку. */
 @media (max-width: 900px) {
   .site-footer {
     min-height: 150px;
@@ -1003,7 +1003,7 @@ main { width: min(calc(100% - 32px), var(--max)); margin: 0 auto; }
 }
 
 
-/* V26: multilingual ADR navigation, timeline blog and grouped collection. */
+/* V26: многоязычная навигация ADR, хронологический блог и коллекция по группам. */
 .header-actions { margin-left:auto; display:flex; align-items:center; justify-content:flex-end; gap:18px; min-width:0; }
 .language-switcher { display:flex; align-items:center; gap:7px; flex:0 0 auto; }
 .language-flag { width:28px; height:28px; border-radius:50%; display:block; overflow:hidden; border:1px solid rgba(255,255,255,.22); opacity:.68; transition:opacity .2s ease, transform .2s ease, box-shadow .2s ease; }
@@ -1019,3 +1019,146 @@ main { width: min(calc(100% - 32px), var(--max)); margin: 0 auto; }
 .collection-group[hidden] { display:none !important; }
 @media (max-width:860px) { .header-actions { width:100%; margin-left:0; justify-content:space-between; align-items:flex-start; gap:12px; } .language-switcher { padding-top:1px; } }
 @media (max-width:580px) { .header-actions { flex-direction:column; } .timeline-card { grid-template-columns:1fr; gap:10px; } .language-flag { width:26px; height:26px; } }
+
+
+/* V27: развёрнутые статьи о световых мечах */
+.timeline-card.article-entry {
+  grid-template-columns:minmax(145px,190px) minmax(0,1fr);
+}
+.timeline-card.article-entry .timeline-copy {
+  display:grid; grid-template-columns:156px minmax(0,1fr); gap:20px; align-items:center;
+}
+.timeline-card.article-entry .timeline-thumb {
+  width:156px; height:104px; object-fit:cover; border:1px solid var(--line); background:#111;
+}
+.timeline-card.article-entry .read-more {
+  display:inline-block; margin-top:10px; color:#e7e7e7; border-bottom:1px solid #777; font-size:.82rem; letter-spacing:.06em;
+}
+.article-gallery {
+  display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; margin:28px 0 34px;
+}
+.article-gallery.three { grid-template-columns:repeat(3,minmax(0,1fr)); }
+.article-gallery img {
+  width:100%; aspect-ratio:4/3; object-fit:cover; border:1px solid var(--line); background:#111;
+}
+.video-frame {
+  position:relative; width:100%; max-width:520px; margin:26px auto 12px; aspect-ratio:9/16; overflow:hidden; border:1px solid var(--line); background:#000;
+}
+.video-frame iframe { position:absolute; inset:0; width:100%; height:100%; border:0; }
+.video-fallback { text-align:center; margin:0 0 30px; color:var(--muted); font-size:.84rem; }
+.video-fallback a { border-bottom:1px solid #777; }
+.article-spec {
+  margin:24px 0; padding:16px 18px; border-left:3px solid #6c1b7a; background:rgba(15,15,15,.66); color:#cfcfcf;
+}
+@media (max-width:760px){
+ .timeline-card.article-entry .timeline-copy{grid-template-columns:1fr;}
+ .timeline-card.article-entry .timeline-thumb{width:100%;height:auto;aspect-ratio:16/9;}
+ .article-gallery,.article-gallery.three{grid-template-columns:1fr;}
+}
+
+
+/* V28: улучшена читабельность статей; переключатель языка остаётся только в шапке */
+.article-header h1 {
+  font-size: clamp(1.8rem, 3.8vw, 3rem);
+  line-height: 1.12;
+  margin-bottom: 14px;
+}
+.video-frame {
+  max-width: 620px;
+}
+@media (max-width: 760px) {
+  .article-header h1 { font-size: clamp(1.7rem, 7.4vw, 2.35rem); }
+  .video-frame { max-width: 100%; }
+}
+
+/* V29: статья об обновлении ПК */
+.article-gallery.pc-gallery { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.article-gallery.pc-gallery img { aspect-ratio: 4 / 3; object-fit: contain; background: #070707; }
+@media (max-width: 900px) { .article-gallery.pc-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 620px) { .article-gallery.pc-gallery { grid-template-columns: 1fr; } }
+
+/* V30: статья о компактной сборке ПК 2022 года */
+.article-gallery.pc-build-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.article-gallery.pc-build-gallery img { aspect-ratio: 4 / 3; object-fit: contain; background: #070707; }
+@media (max-width: 620px) { .article-gallery.pc-build-gallery { grid-template-columns: 1fr; } }
+
+
+/* V31: отдельный каталог статей и фотографии без обрезки */
+.article-index-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+.article-index-card {
+  display: grid;
+  grid-template-columns: minmax(150px, 210px) minmax(0, 1fr);
+  gap: 18px;
+  align-items: center;
+  padding: 14px;
+  border: 1px solid var(--line);
+  background: rgba(8,8,8,.72);
+  text-decoration: none;
+}
+.article-index-card img {
+  width: 100%;
+  height: auto;
+  max-height: 180px;
+  object-fit: contain;
+  background: #070707;
+}
+.article-index-meta { color: var(--muted); font-size: .72rem; letter-spacing: .06em; margin-bottom: 6px; }
+.article-index-copy h3 { margin: 0 0 8px; font-size: 1.16rem; }
+.article-index-copy p { margin: 0; color: #c8c8c8; line-height: 1.55; font-size: .9rem; }
+.article-gallery img,
+.article-gallery.pc-gallery img,
+.article-gallery.pc-build-gallery img {
+  width: 100%;
+  height: auto;
+  max-height: none;
+  aspect-ratio: auto;
+  object-fit: contain;
+  object-position: center;
+  background: #070707;
+}
+@media (max-width: 860px) {
+  .article-index-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 620px) {
+  .article-index-card { grid-template-columns: 1fr; }
+  .article-index-card img { max-height: none; }
+}
+
+
+/* V32: статьи о первом ПК и часах */
+.article-gallery.first-pc-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; }
+.article-gallery.first-pc-gallery .hero-photo { grid-column: 1 / -1; }
+.article-gallery.single-gallery { grid-template-columns: 1fr; max-width: 760px; margin-left: auto; margin-right: auto; }
+.article-gallery.first-pc-gallery img,
+.article-gallery.single-gallery img { width: 100%; height: auto; aspect-ratio: auto; object-fit: contain; object-position: center; background: #070707; }
+@media (max-width: 680px) { .article-gallery.first-pc-gallery { grid-template-columns: 1fr; } }
+
+
+/* V33: горизонтальный видеоплеер для музыкальных статей */
+.video-frame.wide { max-width: 920px; aspect-ratio: 16 / 9; }
+@media (max-width: 760px) { .video-frame.wide { max-width: 100%; } }
+
+
+/* V34: единая хронология блога с изображением у каждой записи. */
+.timeline-card.with-thumb .timeline-copy {
+  display: grid;
+  grid-template-columns: 156px minmax(0, 1fr);
+  gap: 20px;
+  align-items: center;
+}
+.timeline-card.with-thumb .timeline-thumb {
+  width: 156px;
+  height: 112px;
+  object-fit: contain;
+  object-position: center;
+  border: 1px solid var(--line);
+  background: #080808;
+}
+@media (max-width: 760px) {
+  .timeline-card.with-thumb .timeline-copy { grid-template-columns: 1fr; }
+  .timeline-card.with-thumb .timeline-thumb { width: 100%; height: auto; max-height: 320px; }
+}
