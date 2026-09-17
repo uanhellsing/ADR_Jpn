@@ -126,6 +126,7 @@ Blog chronology: insert on **22 October 2022**, after AURORA (Nov 2022) and befo
 - Corrected user recollection: photographed red HyperX SSD is HyperX 3K 240 GB, not HyperX Savage.
 - Added Diesel DZ1295 article dated 27 May 2015 with supplied photo.
 - ADR UAN articles exist in RU / JA / EN; ADR Lite retains its Japanese-only architecture.
+<<<<<<< HEAD
 
 
 ## V33 — 16.09.2026
@@ -147,3 +148,5 @@ Blog chronology: insert on **22 October 2022**, after AURORA (Nov 2022) and befo
 - Microsoft Surface Laptop 4 — апрель 2024.
 - Sony WF-1000XM5 — апрель 2026.
 - Для всех трёх записей добавлены изображения; в полной версии записи присутствуют на RU / JA / EN страницах блога, в Lite — на японской главной странице блога.
+=======
+>>>>>>> 2c5bc2134cb951620364c78aec65ff7072544921
