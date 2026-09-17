@@ -1021,11 +1021,7 @@ main { width: min(calc(100% - 32px), var(--max)); margin: 0 auto; }
 @media (max-width:580px) { .header-actions { flex-direction:column; } .timeline-card { grid-template-columns:1fr; gap:10px; } .language-flag { width:26px; height:26px; } }
 
 
-<<<<<<< HEAD
 /* V27: развёрнутые статьи о световых мечах */
-=======
-/* V27: long-form saber articles */
->>>>>>> 2c5bc2134cb951620364c78aec65ff7072544921
 .timeline-card.article-entry {
   grid-template-columns:minmax(145px,190px) minmax(0,1fr);
 }
@@ -1061,77 +1057,33 @@ main { width: min(calc(100% - 32px), var(--max)); margin: 0 auto; }
 }
 
 
-<<<<<<< HEAD
 /* V28: улучшена читабельность статей; переключатель языка остаётся только в шапке */
-=======
-/* V28: saber article readability and visible language selector */
->>>>>>> 2c5bc2134cb951620364c78aec65ff7072544921
 .article-header h1 {
   font-size: clamp(1.8rem, 3.8vw, 3rem);
   line-height: 1.12;
   margin-bottom: 14px;
 }
-<<<<<<< HEAD
-=======
-.article-language-row {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin: 4px 0 22px;
-}
-.article-language-label {
-  color: var(--muted);
-  font-size: .72rem;
-  letter-spacing: .08em;
-  text-transform: uppercase;
-}
-.article-language-switcher {
-  display: flex;
-  align-items: center;
-  gap: 7px;
-}
-.article-language-switcher .language-flag {
-  width: 30px;
-  height: 30px;
-}
->>>>>>> 2c5bc2134cb951620364c78aec65ff7072544921
 .video-frame {
   max-width: 620px;
 }
 @media (max-width: 760px) {
   .article-header h1 { font-size: clamp(1.7rem, 7.4vw, 2.35rem); }
-<<<<<<< HEAD
   .video-frame { max-width: 100%; }
 }
 
 /* V29: статья об обновлении ПК */
-=======
-  .article-language-row { flex-wrap: wrap; }
-  .video-frame { max-width: 100%; }
-}
-
-/* V29: PC upgrade article */
->>>>>>> 2c5bc2134cb951620364c78aec65ff7072544921
 .article-gallery.pc-gallery { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .article-gallery.pc-gallery img { aspect-ratio: 4 / 3; object-fit: contain; background: #070707; }
 @media (max-width: 900px) { .article-gallery.pc-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 620px) { .article-gallery.pc-gallery { grid-template-columns: 1fr; } }
 
-<<<<<<< HEAD
 /* V30: статья о компактной сборке ПК 2022 года */
-=======
-/* V30: 2022 SFF PC Build article */
->>>>>>> 2c5bc2134cb951620364c78aec65ff7072544921
 .article-gallery.pc-build-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .article-gallery.pc-build-gallery img { aspect-ratio: 4 / 3; object-fit: contain; background: #070707; }
 @media (max-width: 620px) { .article-gallery.pc-build-gallery { grid-template-columns: 1fr; } }
 
 
-<<<<<<< HEAD
 /* V31: отдельный каталог статей и фотографии без обрезки */
-=======
-/* V31: explicit article index and uncropped article photography */
->>>>>>> 2c5bc2134cb951620364c78aec65ff7072544921
 .article-index-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1177,18 +1129,13 @@ main { width: min(calc(100% - 32px), var(--max)); margin: 0 auto; }
 }
 
 
-<<<<<<< HEAD
 /* V32: статьи о первом ПК и часах */
-=======
-/* V32: first-PC and watch articles */
->>>>>>> 2c5bc2134cb951620364c78aec65ff7072544921
 .article-gallery.first-pc-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; }
 .article-gallery.first-pc-gallery .hero-photo { grid-column: 1 / -1; }
 .article-gallery.single-gallery { grid-template-columns: 1fr; max-width: 760px; margin-left: auto; margin-right: auto; }
 .article-gallery.first-pc-gallery img,
 .article-gallery.single-gallery img { width: 100%; height: auto; aspect-ratio: auto; object-fit: contain; object-position: center; background: #070707; }
 @media (max-width: 680px) { .article-gallery.first-pc-gallery { grid-template-columns: 1fr; } }
-<<<<<<< HEAD
 
 
 /* V33: горизонтальный видеоплеер для музыкальных статей */
@@ -1215,5 +1162,3 @@ main { width: min(calc(100% - 32px), var(--max)); margin: 0 auto; }
   .timeline-card.with-thumb .timeline-copy { grid-template-columns: 1fr; }
   .timeline-card.with-thumb .timeline-thumb { width: 100%; height: auto; max-height: 320px; }
 }
-=======
->>>>>>> 2c5bc2134cb951620364c78aec65ff7072544921

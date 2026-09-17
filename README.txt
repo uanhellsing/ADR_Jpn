@@ -151,7 +151,6 @@ V26 — MULTILINGUAL MERGE
 - Added supplied photo galleries and YouTube Shorts embeds with strict-origin-when-cross-origin referrer policy.
 
 V32: added 2014 First PC and 2015 Diesel DZ1295 articles; all article photography remains uncropped.
-<<<<<<< HEAD
 
 
 V33 — 16.09.2026
@@ -166,5 +165,3 @@ V34
 - ADR UAN: выбор языка удалён со стартовой index-страницы.
 - Обновлены YouTube embed-ссылки для Coltrane, Asteria, Xenopixel и HIWY Live.
 - HIWY: добавлен/сохранён STЮ live, видео «Ачивка» удалено.
-=======
->>>>>>> 2c5bc2134cb951620364c78aec65ff7072544921
